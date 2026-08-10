@@ -87,6 +87,22 @@ import ai from '../assets/svg/skills/ai.svg'
 import chatbot from '../assets/svg/skills/chatbot.svg'
 import anvil from '../assets/svg/skills/anvil.svg'
 
+import androidstudio from '../assets/svg/skills/androidstudio.svg'
+import vscode from '../assets/svg/skills/vscode.svg'
+import postman from '../assets/svg/skills/postman.svg'
+import googlemaps from '../assets/svg/skills/googlemaps.svg'
+import playstore from '../assets/svg/skills/playstore.svg'
+import appstore from '../assets/svg/skills/appstore.svg'
+import provider from '../assets/svg/skills/provider.svg'
+import getx from '../assets/svg/skills/getx.svg'
+import riverpod from '../assets/svg/skills/riverpod.svg'
+import bloc from '../assets/svg/skills/bloc.svg'
+import restapi from '../assets/svg/skills/restapi.svg'
+import payments from '../assets/svg/skills/payments.svg'
+import notifications from '../assets/svg/skills/notifications.svg'
+import testing from '../assets/svg/skills/testing.svg'
+import github from '../assets/svg/social/github.svg'
+
 
 export const skillsImage = (skill) => {
     const skillID = skill.toLowerCase();
@@ -103,6 +119,36 @@ export const skillsImage = (skill) => {
             return ai;
         case 'chatbot':
             return chatbot;
+        case 'android studio':
+            return androidstudio;
+        case 'vs code':
+            return vscode;
+        case 'postman':
+            return postman;
+        case 'google maps':
+            return googlemaps;
+        case 'play store':
+            return playstore;
+        case 'app store':
+            return appstore;
+        case 'provider':
+            return provider;
+        case 'getx':
+            return getx;
+        case 'riverpod':
+            return riverpod;
+        case 'bloc':
+            return bloc;
+        case 'rest apis':
+            return restapi;
+        case 'payments':
+            return payments;
+        case 'push notifications':
+            return notifications;
+        case 'testing':
+            return testing;
+        case 'github':
+            return github;
         case 'bitbucket':
             return bitbucket;
         case 'fastapi':
