@@ -1,98 +1,88 @@
+import bemindepower from '../assets/png/project-bemindepower.webp'
+import novii from '../assets/png/project-novii.webp'
+import jewels from '../assets/png/project-jewels.webp'
+import goffix from '../assets/png/project-goffix.webp'
+import dost from '../assets/png/project-4dost.webp'
+
 export const projectsData = [
     {
         id: 1,
-        projectName: 'Veriport',
+        projectName: 'BeMindePower',
         projectDesc:
-            'Lab-testing compliance platform with MRO review workflows, document management, and multi-provider lab integrations.',
+            'Multi-module Flutter platform combining chat, finance, music, and marketplace experiences in one unified mobile app — 1K+ downloads and growing.',
         problem:
-            'MRO teams need lab orders, provider results, and chain-of-custody (CCF) documents from multiple labs brought together into one reviewable, auditable workflow.',
+            'Bringing significantly different digital services — social chat, finance, music, and a marketplace — into a single mobile app without fragmenting the user experience.',
         built:
-            'A two-service Django + Vue platform: the core app with document management, OCR-assisted CCF QA, dashboards, and reporting, plus a lab-ordering service integrating Quest and CRL via SOAP/XML APIs and webhooks — deployed on AWS ECS with Celery workers.',
+            'A multi-module Flutter application with conversational and social features, finance functionality, music experiences, and marketplace workflows — responsive UI, API-driven data, real-time features, and smooth navigation between modules.',
         challenge:
-            'Reliably parsing provider webhook XML and routing results and CCF documents from the lab-ordering service back into Veriport’s review workflows while keeping data consistent across two systems.',
-        tags: ['Django', 'Vue.js', 'Celery', 'AWS'],
-        demo: 'https://dashboard.veriport.app/',
-        demoLabel: 'dashboard.veriport.app',
-        image: 'https://res.cloudinary.com/dqtkhw88b/image/upload/v1781870558/Screenshot_from_2026-06-19_17-01-58_qqubvf.png',
+            'Maintaining a consistent, scalable application structure while supporting very different feature areas within the same Flutter codebase.',
+        tags: ['Flutter', 'Firebase', 'WebSockets', 'REST APIs'],
+        demo: 'https://play.google.com/store/apps/details?id=chat.bemindepower.bmpchat',
+        demoLabel: 'on Google Play',
+        image: bemindepower,
     },
     {
         id: 2,
-        projectName: 'PageOptimizer Pro',
+        projectName: 'Novii',
         projectDesc:
-            'SEO content optimization platform that analyzes top-ranking pages and tells you exactly how to improve yours.',
+            'Self-discovery and life-alignment app that helps users understand where they are in life, what matters to them, and what direction to take.',
         problem:
-            'SEO teams need data-driven, page-level guidance — the keywords, structure, and schema that top-ranking competitors use — instead of guesswork.',
+            'Users needed a calm, guided way to reflect on their life, priorities, and goals — through assessments that feel simple and engaging rather than overwhelming.',
         built:
-            'Built and maintained features across the Flask REST API and Vue SPA — keyword insight and clustering, schema generation, AI content tooling, and async competitor-analysis pipelines on Celery and Redis, with Stripe and PayPal subscription billing.',
+            'An interactive assessment experience in Flutter — guided questions, ratings and selections, personal insights, and progress-based flows with consistent navigation, published on both Android and iOS.',
         challenge:
-            'Running heavy competitor-analysis and NLP workloads asynchronously so reports stay responsive, while keeping a complex subscriptions-and-credits system in sync with Stripe and PayPal.',
-        tags: ['Flask', 'Vue.js', 'Celery', 'Stripe'],
-        demo: 'https://www.pageoptimizer.pro/',
-        demoLabel: 'pageoptimizer.pro',
-        image: 'https://res.cloudinary.com/dqtkhw88b/image/upload/v1781870559/Screenshot_from_2026-06-19_17-02-11_lz6fph.png',
+            'Keeping the assessment flow simple and engaging while handling many questions, responses, and progress states across the app.',
+        tags: ['Flutter', 'Dart', 'Android', 'iOS'],
+        demo: 'https://play.google.com/store/apps/details?id=com.anonymous.novii',
+        demoLabel: 'on Google Play',
+        image: novii,
     },
     {
         id: 3,
-        projectName: 'EnergyGigs',
+        projectName: 'Jewels Airport Transfers',
         projectDesc:
-            'Marketplace that matches energy-sector professionals to projects.',
+            'Airport transfer booking app for reliable, professional transportation to and from all major UK airports.',
         problem:
-            'Energy companies struggle to find and allocate skilled professionals for project-based work.',
+            'Travelers needed a simple mobile way to book airport transfers, calculate fares, choose suitable vehicles, and receive instant booking confirmations.',
         built:
-            'A full-stack marketplace with a React + Redux Toolkit frontend and Django REST Framework APIs, deployed with Docker.',
+            'A Flutter booking app with airport transfer flows, fare calculation, multiple vehicle options (saloon, executive, MPV), meet & greet services, and real-time booking information — published on Google Play and the App Store.',
         challenge:
-            'Designing the search and matching flows between professionals and projects, and keeping environments consistent with containerised deployments.',
-        tags: ['React', 'DRF', 'Redux Toolkit', 'Docker'],
-        demo: 'https://energygigs.com/',
-        demoLabel: 'energygigs.com',
-        image: 'https://res.cloudinary.com/dqtkhw88b/image/upload/v1745946624/Screenshot_from_2025-04-29_22-10-06_uddyxf.png',
+            'Keeping the booking process simple and reliable for travelers while integrating backend services and real-time booking data.',
+        tags: ['Flutter', 'Provider', 'Firebase', 'REST APIs'],
+        demo: 'https://play.google.com/store/apps/details?id=com.tiecodes.jat',
+        demoLabel: 'on Google Play',
+        image: jewels,
     },
     {
         id: 4,
-        projectName: 'Omnia Resourcing',
+        projectName: 'Goffix',
         projectDesc:
-            'Employee records and bulk communication platform for staffing agencies.',
+            'On-demand multi-service app connecting users with trusted local service providers for everyday services and deliveries.',
         problem:
-            'Managing employee records across accounts and distributing weekly work details to large groups of staff was slow and manual.',
+            'Users needed one place to find trusted local providers — mechanics, electricians, couriers, cleaning, grocery delivery, pet care, and more — and manage requests end to end.',
         built:
-            'A React + DRF platform with bulk CSV uploads for users and weekly work details, plus bulk email and WhatsApp delivery with per-employee PDF attachments.',
+            'A Flutter services platform with category-based discovery, service posting, provider selection, in-app chat, ratings, service history, and location-based search across 200+ service categories.',
         challenge:
-            'Processing large CSV imports and high-volume message fan-out without blocking the app — handled with Celery workers and Pandas-based validation.',
-        tags: ['React', 'DRF', 'Pandas', 'Celery'],
-        demo: 'http://18.130.83.142:8080/login',
-        demoLabel: 'View live demo',
-        image: 'https://res.cloudinary.com/dqtkhw88b/image/upload/v1781871799/Screenshot_from_2026-06-19_17-19-39_t14i3m.png',
+            'Handling many service categories and distinct user journeys while keeping one consistent, easy-to-use experience across the application.',
+        tags: ['Flutter', 'GetX', 'REST APIs', 'Google Maps'],
+        demo: 'https://play.google.com/store/apps/details?id=com.fewnix.goffix',
+        demoLabel: 'on Google Play',
+        image: goffix,
     },
     {
         id: 5,
-        projectName: 'CIDB Malaysia — QLASSIC',
+        projectName: '4DOST',
         projectDesc:
-            'National quality assessment system for building construction works in Malaysia.',
+            'Local business discovery app for restaurants, deals, coupons, events, services, and food delivery in your city.',
         problem:
-            'CIDB Malaysia needed a standardised digital way to assess and score the quality of workmanship on building construction projects against the QLASSIC standard.',
+            'Users needed an easy way to find nearby businesses, restaurants, deals, and events — with reviews, ratings, and map locations all in one app.',
         built:
-            'A Django-based assessment platform covering assessment workflows, scoring, and reporting, with interactive amCharts dashboards for results.',
+            'A Flutter discovery experience with location-based search, category filters, business details, reviews and ratings, deals and coupons, local events, reservations, and food delivery flows.',
         challenge:
-            'Translating a formal construction quality standard into application logic and reports that assessors can rely on.',
-        tags: ['Django', 'jQuery', 'Bootstrap', 'amCharts'],
-        demo: 'https://qlassic.cidb.gov.my/',
-        demoLabel: 'qlassic.cidb.gov.my',
-        image: 'https://res.cloudinary.com/dqtkhw88b/image/upload/v1745946831/Screenshot_from_2025-04-29_22-13-36_o3l04l.png',
-    },
-    {
-        id: 6,
-        projectName: 'SheetPros',
-        projectDesc:
-            'Smartsheet automation tool for sharing data across connected sheets.',
-        problem:
-            'Teams working across multiple Smartsheet sheets had no clean way to keep data in related sheets synchronised automatically.',
-        built:
-            'An Anvil-based Python tool that shares data between associated sheets via webhooks, manages webhook configuration, and handles subscriptions with Stripe.',
-        challenge:
-            'Keeping webhook-driven syncs reliable so connected sheets stay consistent as updates flow between them.',
-        tags: ['Python', 'Anvil', 'Pandas', 'Stripe'],
-        demo: 'https://ddvalidator.com/',
-        demoLabel: 'ddvalidator.com',
-        image: 'https://res.cloudinary.com/dqtkhw88b/image/upload/v1745946922/Screenshot_from_2025-04-29_22-15-06_fcap3e.png',
+            'Supporting many categories and user journeys — discovery, deals, events, delivery — while keeping the experience consistent, fast, and easy to use.',
+        tags: ['Flutter', 'Google Maps', 'Firebase', 'REST APIs'],
+        demo: 'https://play.google.com/store/apps/details?id=com.msr.dost',
+        demoLabel: 'on Google Play',
+        image: dost,
     },
 ]

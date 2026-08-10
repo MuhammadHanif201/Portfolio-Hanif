@@ -1,4 +1,5 @@
 import React,{ useContext} from 'react';
+import { Link } from 'react-router-dom';
 import { makeStyles } from '@material-ui/core/styles';
 
 import { ThemeContext } from '../../contexts/ThemeContext';
@@ -51,7 +52,7 @@ function Projects() {
                         <span style={{color: theme.primary}}>Selected work</span>
                         <h1 style={{color: theme.primary}}>Projects</h1>
                         <p style={{color: theme.tertiary80}}>
-                            Product builds with real users, integrations, background jobs, and production deployments.
+                            Flutter apps with real users — from Figma designs to Google Play and App Store releases.
                         </p>
                     </div>
                     <div className="projects--body">
@@ -74,18 +75,6 @@ function Projects() {
 
                         {projectsData.length > 3 && (
                             <div className="projects--viewAll">
-                                <a href="https://husnain-hashmi.webflow.io/" target="_blank" rel="noopener noreferrer">
-                                    <button className={classes.viewAllBtn}>
-                                        View All
-                                        <HiArrowRight className={classes.viewArr} />
-                                    </button>
-                                </a>
-                            </div>
-                        )}
-
-
-                        {/* {projectsData.length > 3 && (
-                            <div className="projects--viewAll">
                                 <Link to="/projects">
                                     <button className={classes.viewAllBtn}>
                                         View All
@@ -93,7 +82,7 @@ function Projects() {
                                     </button>
                                 </Link>
                             </div>
-                        )} */}
+                        )}
                     </div>
                 </div>
             )}
