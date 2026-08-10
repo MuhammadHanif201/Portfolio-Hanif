@@ -94,6 +94,50 @@ export const bwThemeDark = {
     contactsimg: contactsBlack
 }
 
+export const goldThemeDark = {
+    type: 'dark',
+    primary: '#D4AF37',
+    primary400: '#e0c158',
+    primary600: '#b8962e',
+    primary80: '#D4AF37cc',
+    primary50: '#D4AF3780',
+    primary30: '#D4AF374d',
+    secondary: '#101725',
+    secondary70: '#101725b3',
+    secondary50: '#10172580',
+    tertiary: '#f2f4f8',
+    tertiary80: '#f2f4f8cc',
+    tertiary70: '#f2f4f8b3',
+    tertiary50: '#f2f4f880',
+    aboutimg1: yellowThemeboy,
+    aboutimg2: yellowThemegirl,
+    eduimg: eduYellow,
+    expimg: expYellow,
+    contactsimg: contactsYellow
+}
+
+export const navyThemeLight = {
+    type: 'light',
+    primary: '#24406e',
+    primary400: '#33547f',
+    primary600: '#1b3157',
+    primary80: '#24406ecc',
+    primary50: '#24406e80',
+    primary30: '#24406e4d',
+    secondary: '#f4f5f7',
+    secondary70: '#f4f5f7b3',
+    secondary50: '#f4f5f780',
+    tertiary: '#1c2430',
+    tertiary80: '#1c2430cc',
+    tertiary70: '#1c2430b3',
+    tertiary50: '#1c243080',
+    aboutimg1: blueThemeboy,
+    aboutimg2: blueThemegirl,
+    eduimg: eduBlue,
+    expimg: expBlue,
+    contactsimg: contactsBlue
+}
+
 export const blueThemeLight = {
     type: 'light',
     primary: '#545fc4',

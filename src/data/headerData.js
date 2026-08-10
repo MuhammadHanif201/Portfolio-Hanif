@@ -1,4 +1,5 @@
 import resume from '../assets/pdf/resume.pdf'
+import profileImage from '../assets/png/hanif-portfolio.png'
 
 const description =
     '4+ years building high-performance cross-platform mobile apps with Flutter, Dart, Firebase, and REST APIs — from first commit to App Store and Play Store release.'
@@ -10,7 +11,7 @@ export const headerData = {
     description,
     desciption: description,
     availability: 'Open to international opportunities',
-    image: 'https://res.cloudinary.com/dmud4zzix/image/upload/v1745869678/K52A7891-removebg-removebg_cn4jqs.png',
+    image: profileImage,
     resumePdf: resume,
 }
 
