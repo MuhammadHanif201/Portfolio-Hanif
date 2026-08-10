@@ -462,6 +462,7 @@ function Contacts() {
     const calendlyRef = useRef();
 
     useEffect(() => {
+        if (!calendlyRef.current) return;
         const script = document.createElement('script');
         script.src = 'https://assets.calendly.com/assets/external/widget.js';
         script.async = true;
