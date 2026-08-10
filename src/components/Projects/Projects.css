@@ -1,0 +1,148 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    overflow-x: hidden;
+    padding: 4.5rem 2rem 3rem;
+}
+
+
+.projects--header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: min(100%, 760px);
+    margin: 0 auto 3rem;
+    text-align: center;
+}
+
+.projects--header span {
+    font-family: var(--primaryFont);
+    font-size: 0.95rem;
+    font-weight: 700;
+    letter-spacing: 0;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+
+.projects--header h1 {
+    margin-bottom: 1rem;
+    font-size: 3.5rem;
+    line-height: 1;
+    font-family: var(--primaryFont);
+}
+
+.projects--header p {
+    max-width: 620px;
+    font-family: var(--primaryFont);
+    font-size: 1.08rem;
+    font-weight: 500;
+    line-height: 1.7;
+}
+
+.projects--body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects--bodyContainer {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(280px, 1fr));
+    align-items: center;
+    justify-content: stretch;
+    gap: 2rem;
+    width: min(100%, 1180px);
+}
+
+.projects--viewAll {
+    width: min(100%, 1180px);
+    padding: 2.5rem 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.projects--viewAll a button {
+    outline: none;
+    border: none;
+    min-width: 146px;
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.8rem;
+    text-transform: inherit;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-family: var(--primaryFont);
+    font-weight: 700;
+    padding: 0.45rem 0.45rem 0.45rem 1rem;
+    cursor: pointer;
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1380px) {
+
+}
+
+
+@media screen and (max-width: 992px) {
+    .projects--bodyContainer {
+        grid-template-columns: 1fr;
+        width: min(100%, 680px);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .projects {
+        padding: 3.5rem 1.4rem 2.5rem;
+    }
+
+    .projects--header h1 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .projects {
+        padding: 3rem 1rem 2.25rem;
+    }
+
+    .projects--header h1 {
+        font-size: 2.5rem;
+    }
+
+    .projects--header p {
+        font-size: 1rem;
+    }
+
+    .projects--viewAll {
+        justify-content: center;
+    }
+
+    .projects--viewAll a {
+        position: static;
+        transform: none;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+}
+  
+@media only screen and (min-device-width: 320px) and (max-device-width: 
+  480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
+
+}
+
+
+@media only screen and (device-width: 768px) {
+
+}

@@ -1,0 +1,6 @@
+export const aboutData = {
+    title: "Who I am",
+    description1: "I am a Software Developer specializing as a Full Stack Developer | Django Expert | React.js Enthusiast.",
+    description2: "With comprehensive expertise in Python, Django, Django Rest Framework (DRF), FastAPI, Flask, JavaScript, React.js, Redux, Tailwind CSS, LangChain, AI Chatbot Development, Anvil, Celery, Redis, PostgreSQL, MySQL, Docker, AWS (EC2, S3, RDS), GitHub, GitLab, CICD pipelines, and RESTful API integration, I specialize in building robust, scalable web applications and microservices. I have hands-on experience in developing secure authentication systems, real-time data applications, serverless architectures, and integrating third-party APIs. My frontend work emphasizes responsive, dynamic user interfaces with performance optimization and cross-browser compatibility. Additionally, I hold a Bachelor's degree in Computer Science from Superior University Lahore, which has provided me with a solid academic and practical foundation in software engineering principles. Passionate about solving real-world problems with technology, I am committed to delivering high-quality, efficient, and maintainable solutions. Let's collaborate to transform your vision into a successful digital product.",
+    image: 1
+}

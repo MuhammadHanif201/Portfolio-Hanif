@@ -1,0 +1,168 @@
+.singleProject {
+    box-shadow: 0 18px 45px rgba(16, 24, 40, 0.12);
+    width: 100%;
+    min-height: 100%;
+    border: 1px solid;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.singleProject:hover {
+    box-shadow: 0 24px 60px rgba(16, 24, 40, 0.18);
+    border-color: var(--project-accent);
+    transform: translateY(-6px);
+}
+
+.projectContent {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+}
+
+.project--imageWrap {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    overflow: hidden;
+    background: linear-gradient(135deg, var(--project-accent-soft), var(--project-surface));
+    border-bottom: 1px solid rgba(15, 23, 42, 0.08);
+}
+
+.project--imageWrap::after {
+    content: "";
+    position: absolute;
+    inset: auto 1rem 1rem 1rem;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--project-accent), transparent);
+    opacity: 0.55;
+}
+
+.project--imageWrap > img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: top center;
+    transition: transform 0.35s ease, filter 0.35s ease;
+}
+
+.singleProject:hover .project--imageWrap > img {
+    filter: saturate(1.08) contrast(1.02);
+    transform: scale(1.035);
+}
+
+.project--copy {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 1.35rem 1.35rem 1rem;
+}
+
+.project--eyebrow {
+    margin-bottom: 0.5rem;
+    font-family: var(--primaryFont);
+    font-size: 0.78rem;
+    font-weight: 800;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.project--copy > h2 {
+    margin-bottom: 0.75rem;
+    font-family: var(--primaryFont);
+    font-size: clamp(1.25rem, 2vw, 1.6rem);
+    font-weight: 800;
+    line-height: 1.15;
+    text-align: left;
+}
+
+.project--showcaseBtn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 0 1.35rem 1.35rem;
+}
+
+.project--showcaseBtn > a {
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.5s 0.3s;
+}
+
+.project--copy .project--desc {
+    margin: 0;
+    font-family: var(--primaryFont);
+    font-size: 0.98rem;
+    font-weight: 500;
+    line-height: 1.65;
+}
+
+.singleProject .project--lang {
+    width: auto;
+    margin: 0;
+    padding: 0 1.35rem 1.1rem;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.project--lang > li {
+    border: 1px solid var(--project-accent-soft);
+    border-radius: 8px;
+    padding: 0.42rem 0.65rem;
+    background: rgba(255, 255, 255, 0.56);
+    font-family: var(--primaryFont);
+    font-size: 0.78rem;
+    font-weight: 700;
+    line-height: 1;
+    word-break: break-word; 
+}
+
+/* === Responsive Styles === */
+@media screen and (max-width: 768px) {
+    .singleProject {
+        width: 100%;
+    }
+
+    .project--copy {
+        padding: 1.15rem 1.15rem 0.9rem;
+    }
+
+    .project--showcaseBtn {
+        padding: 0 1.15rem 1.15rem;
+    }
+
+    .singleProject .project--lang {
+        padding: 0 1.15rem 1rem;
+    }
+
+    .project--copy .project--desc {
+        font-size: 0.93rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .project--imageWrap {
+        aspect-ratio: 4 / 3;
+    }
+
+    .project--showcaseBtn > a,
+    .project--showcaseBtn a span {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+}
