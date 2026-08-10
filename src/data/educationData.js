@@ -1,10 +1,10 @@
 export const educationData = [
     {
         id: 2,
-        institution: 'Superior University',
-        course: 'Bachelor of Computer Science',
+        institution: 'Superior University, Lahore',
+        course: 'Bachelor of Science in Computer Science',
         startYear: '2021',
-        endYear: '2024'
+        endYear: '2025'
     },
    
    
