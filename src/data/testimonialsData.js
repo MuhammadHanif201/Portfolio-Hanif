@@ -17,14 +17,14 @@ export const testimonialsData = [
         id: 2,
         name: 'Ross Martin',
         title: '',
-        text: "Husnain absolutely nailed it with the web-based task solution app! It has significantly increased our agency's efficiency, serving as a valuable tool for time blocking and task management.",
+        text: "Hanif absolutely nailed it with the web-based task solution app! It has significantly increased our agency's efficiency, serving as a valuable tool for time blocking and task management.",
         image: boy3
     },
     {
         id: 3,
         name: 'Grace',
         title: '',
-        text: "Husnain delivered outstanding quality on our React JS and Django-based weather app. His frontend and backend skills exceeded expectations. I will definitely return for future projects..",
+        text: "Hanif delivered outstanding quality on our React JS and Django-based weather app. His frontend and backend skills exceeded expectations. I will definitely return for future projects..",
         image: girl3
     }
 ]

@@ -1,40 +1,40 @@
-import { FiServer, FiCloud, FiLayers, FiCpu, FiZap } from 'react-icons/fi'
+import { FiSmartphone, FiShoppingCart, FiCalendar, FiCpu, FiUploadCloud } from 'react-icons/fi'
 
 export const servicesData = [
     {
         id: 1,
-        title: 'Backend Platforms & APIs',
+        title: 'Custom Flutter App Development',
         description:
-            'REST APIs and service backends with Django, DRF, and FastAPI — authentication, permissions, documentation, and testing included.',
-        icon: <FiServer aria-hidden='true' />,
+            'Custom Android & iOS apps built with Flutter and Dart — professional, responsive UI/UX with clean, maintainable code and smooth performance on both platforms.',
+        icon: <FiSmartphone aria-hidden='true' />,
     },
     {
         id: 2,
-        title: 'Cloud Deployment & DevOps',
+        title: 'Business & Startup MVPs',
         description:
-            'Dockerised deployments on AWS with Nginx, CI/CD pipelines, and environment management from development to production.',
-        icon: <FiCloud aria-hidden='true' />,
-    },
-    {
-        id: 3,
-        title: 'Full-Stack Product Development',
-        description:
-            'Complete features across React frontends and Python backends — from data model and API design to the user interface.',
-        icon: <FiLayers aria-hidden='true' />,
-    },
-    {
-        id: 4,
-        title: 'AI-Assisted Product Features',
-        description:
-            'Generative AI chatbots and LLM-powered features using LangChain and vector databases, integrated into real products.',
+            'Fast, scalable MVPs for startups, entrepreneurs, and businesses — from idea to a production-ready app that validates your product quickly.',
         icon: <FiCpu aria-hidden='true' />,
     },
     {
-        id: 5,
-        title: 'Integrations & Automation',
+        id: 3,
+        title: 'eCommerce & Marketplace Apps',
         description:
-            'Third-party API integrations, Stripe payments, bulk messaging, and background automation with Celery and Redis.',
-        icon: <FiZap aria-hidden='true' />,
+            'eCommerce and marketplace apps with payment gateways, subscriptions, push notifications, and real-time features your customers rely on.',
+        icon: <FiShoppingCart aria-hidden='true' />,
+    },
+    {
+        id: 4,
+        title: 'Booking, Travel & Service Apps',
+        description:
+            'Booking & appointment, travel & transportation, healthcare, chat, social, and AI-powered apps — with maps, chat, and third-party integrations.',
+        icon: <FiCalendar aria-hidden='true' />,
+    },
+    {
+        id: 5,
+        title: 'Firebase, APIs & Store Deployment',
+        description:
+            'Firebase & REST API integration, testing, debugging & optimization, source code delivery, and Google Play Store & Apple App Store deployment support.',
+        icon: <FiUploadCloud aria-hidden='true' />,
     },
 ]
 

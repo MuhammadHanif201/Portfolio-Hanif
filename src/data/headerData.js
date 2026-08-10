@@ -1,11 +1,11 @@
 import resume from '../assets/pdf/resume.pdf'
 
 const description =
-    '5+ years designing APIs, data pipelines, integrations, and cloud infrastructure with Python, Django, FastAPI, React, and AWS — from first commit to production.'
+    '4+ years building high-performance cross-platform mobile apps with Flutter, Dart, Firebase, and REST APIs — from first commit to App Store and Play Store release.'
 
 export const headerData = {
-    name: 'Husnain Hashmi',
-    title: 'Senior Full-Stack / Backend Engineer',
+    name: 'Muhammad Hanif',
+    title: 'Flutter Mobile App Developer',
     headline: 'I build production-grade backend systems and full-stack products.',
     description,
     desciption: description,
@@ -15,10 +15,10 @@ export const headerData = {
 }
 
 export const proofPoints = [
-    '5+ Years Experience',
-    'Python · Django · FastAPI',
-    'React & Redux',
-    'AWS & Docker',
-    'PostgreSQL & Redis',
-    'Production Systems',
+    '4+ Years Experience',
+    'Flutter · Dart',
+    'Firebase & REST APIs',
+    'Android & iOS',
+    'Figma to Flutter',
+    'Play Store & App Store',
 ]
