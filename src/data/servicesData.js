@@ -1,40 +1,86 @@
-import { FiSmartphone, FiShoppingCart, FiCalendar, FiCpu, FiUploadCloud } from 'react-icons/fi'
+import {
+    FiSmartphone,
+    FiTablet,
+    FiTrendingUp,
+    FiShoppingCart,
+    FiCalendar,
+    FiMap,
+    FiActivity,
+    FiMessageCircle,
+    FiCpu,
+    FiTool,
+} from 'react-icons/fi'
 
 export const servicesData = [
     {
         id: 1,
-        title: 'Custom Flutter App Development',
+        title: 'Custom Flutter Mobile Apps',
         description:
-            'Custom Android & iOS apps built with Flutter and Dart — professional, responsive UI/UX with clean, maintainable code and smooth performance on both platforms.',
+            'Tailor-made Flutter apps built around your business needs — professional, responsive UI/UX with clean, maintainable code.',
         icon: <FiSmartphone aria-hidden='true' />,
     },
     {
         id: 2,
-        title: 'Business & Startup MVPs',
+        title: 'Android & iOS Apps',
         description:
-            'Fast, scalable MVPs for startups, entrepreneurs, and businesses — from idea to a production-ready app that validates your product quickly.',
-        icon: <FiCpu aria-hidden='true' />,
+            'One codebase, both platforms — smooth, reliable performance on Android and iOS from a single Flutter build.',
+        icon: <FiTablet aria-hidden='true' />,
     },
     {
         id: 3,
-        title: 'eCommerce & Marketplace Apps',
+        title: 'Business & Startup MVPs',
         description:
-            'eCommerce and marketplace apps with payment gateways, subscriptions, push notifications, and real-time features your customers rely on.',
-        icon: <FiShoppingCart aria-hidden='true' />,
+            'Fast, scalable MVPs that take your idea to market quickly and validate it with real users.',
+        icon: <FiTrendingUp aria-hidden='true' />,
     },
     {
         id: 4,
-        title: 'Booking, Travel & Service Apps',
+        title: 'eCommerce & Marketplace Apps',
         description:
-            'Booking & appointment, travel & transportation, healthcare, chat, social, and AI-powered apps — with maps, chat, and third-party integrations.',
-        icon: <FiCalendar aria-hidden='true' />,
+            'Online stores and marketplaces with payment integration, subscriptions, and push notifications.',
+        icon: <FiShoppingCart aria-hidden='true' />,
     },
     {
         id: 5,
-        title: 'Firebase, APIs & Store Deployment',
+        title: 'Booking & Appointment Apps',
         description:
-            'Firebase & REST API integration, testing, debugging & optimization, source code delivery, and Google Play Store & Apple App Store deployment support.',
-        icon: <FiUploadCloud aria-hidden='true' />,
+            'Scheduling, reservations, and appointment flows your customers can rely on — with reminders and real-time updates.',
+        icon: <FiCalendar aria-hidden='true' />,
+    },
+    {
+        id: 6,
+        title: 'Travel & Transportation Apps',
+        description:
+            'Travel, airport transfer, and transport solutions with Google Maps, live tracking, and bookings.',
+        icon: <FiMap aria-hidden='true' />,
+    },
+    {
+        id: 7,
+        title: 'Healthcare & Service Apps',
+        description:
+            'Healthcare and on-demand service apps with secure authentication and reliable data handling.',
+        icon: <FiActivity aria-hidden='true' />,
+    },
+    {
+        id: 8,
+        title: 'Chat & Social Apps',
+        description:
+            'Real-time chat and social platforms powered by Firebase — messaging, presence, and notifications.',
+        icon: <FiMessageCircle aria-hidden='true' />,
+    },
+    {
+        id: 9,
+        title: 'AI-Powered Mobile Apps',
+        description:
+            'LLM chatbots and smart features integrated into mobile experiences that set your product apart.',
+        icon: <FiCpu aria-hidden='true' />,
+    },
+    {
+        id: 10,
+        title: 'Custom Mobile Solutions',
+        description:
+            'Firebase & REST API integration, testing, debugging & optimization, source code delivery, and Play Store & App Store deployment support.',
+        icon: <FiTool aria-hidden='true' />,
     },
 ]
 

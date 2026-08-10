@@ -27,7 +27,8 @@ function Services() {
                                 key={services.id}
                                 id={services.id}
                                 title={services.title}
-                                icon={services.icon}/>
+                                icon={services.icon}
+                                description={services.description}/>
                             ))}
                         </div>
                     </div>
