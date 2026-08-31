@@ -46,6 +46,8 @@
     display: flex;
     flex: 0.4;
     width: 100%;
+    max-width: 100%;
+    overflow: hidden;
 }
 
 .contacts-form form {
@@ -58,6 +60,14 @@
 
 .input-container {
     width: 100%;
+    max-width: 100%;
+}
+
+.calendly-inline-widget {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    height: auto !important;
 }
 
 
