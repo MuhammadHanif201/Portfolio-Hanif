@@ -607,7 +607,7 @@ function Contacts() {
                                 ref={calendlyRef}
                                 className="calendly-inline-widget input-container"
                                 data-url={calendlyUrl}
-                                style={{ minWidth: 0, width: '100%', height: '700px' }}
+                                style={{ minWidth: '320px', height: '700px' }}
                             ></div>
                         )}
 
