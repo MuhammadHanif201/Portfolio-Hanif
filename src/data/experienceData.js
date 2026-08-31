@@ -30,13 +30,14 @@ export const experienceData = [
         company: 'MindRind',
         location: 'Pakistan',
         jobtitle: 'Flutter Developer',
-        startYear: 'Sep 2024',
+        startYear: 'Nov 2024',
         endYear: 'Dec 2024',
         bullets: [
             'Built responsive Flutter UIs from Figma designs with clean, maintainable Dart code.',
             'Integrated REST APIs and Firebase services, fixed bugs, and improved app performance.',
         ],
     },
+    /*
     {
         id: 4,
         company: 'Self-Employed / Freelance',
@@ -50,4 +51,5 @@ export const experienceData = [
             'Managed complete workflows — requirements, Figma-to-Flutter UI, backend integration, and store deployment.',
         ],
     },
+    */
 ]

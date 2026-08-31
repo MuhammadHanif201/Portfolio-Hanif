@@ -2,7 +2,7 @@ import resume from '../assets/pdf/resume.pdf'
 import profileImage from '../assets/png/hanif-portfolio.png'
 
 const description =
-    '4+ years building high-performance cross-platform mobile apps with Flutter, Dart, Firebase, and REST APIs — from first commit to App Store and Play Store release.'
+    '2+ years building high-performance cross-platform mobile apps with Flutter, Dart, Firebase, and REST APIs — from first commit to App Store and Play Store release.'
 
 export const headerData = {
     name: 'Muhammad Hanif',
@@ -16,7 +16,7 @@ export const headerData = {
 }
 
 export const proofPoints = [
-    '4+ Years Experience',
+    '2+ Years Experience',
     'Flutter · Dart',
     'Firebase & REST APIs',
     'Android & iOS',

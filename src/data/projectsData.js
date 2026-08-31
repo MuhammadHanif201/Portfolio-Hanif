@@ -13,19 +13,19 @@ import dost from '../assets/png/project-4dost.webp'
 export const projectsData = [
     {
         id: 1,
-        projectName: 'Vaihok',
+        projectName: 'BeMindePower',
         projectDesc:
-            'All-in-one super app bringing private communication, voice & video calls, payments, wallets, services, and communities together in one platform.',
+            'Multi-module Flutter platform combining chat, finance, music, and marketplace experiences in one unified mobile app — 1K+ downloads and growing.',
         problem:
-            'Users juggle separate apps for messaging, calls, payments, services, and communities — Vaihok needed to unify them all in one secure, consistent mobile experience.',
+            'Bringing significantly different digital services — social chat, finance, music, and a marketplace — into a single mobile app without fragmenting the user experience.',
         built:
-            'A multi-module Flutter super app with end-to-end encrypted 1:1 and group chats, voice and video calls, secure payments and wallet functionality, a services marketplace, media and file sharing, location sharing, communities, channels, and cross-device sync.',
+            'A multi-module Flutter application with conversational and social features, finance functionality, music experiences, and marketplace workflows — responsive UI, API-driven data, real-time features, and smooth navigation between modules.',
         challenge:
-            'Maintaining a scalable, consistent Flutter experience across significantly different feature areas — real-time communication, financial features, and service workflows — within the same application.',
-        tags: ['Flutter', 'WebSockets', 'Payments', 'REST APIs'],
+            'Maintaining a consistent, scalable application structure while supporting very different feature areas within the same Flutter codebase.',
+        tags: ['Flutter', 'Firebase', 'WebSockets', 'REST APIs'],
         demo: 'https://play.google.com/store/apps/details?id=chat.bemindepower.bmpchat',
         demoLabel: 'on Google Play',
-        image: vaihok,
+        image: bemindepower,
     },
     {
         id: 2,
@@ -93,19 +93,19 @@ export const projectsData = [
     },
     {
         id: 6,
-        projectName: 'BeMindePower',
+        projectName: 'Vaihok',
         projectDesc:
-            'Multi-module Flutter platform combining chat, finance, music, and marketplace experiences in one unified mobile app — 1K+ downloads and growing.',
+            'All-in-one super app bringing private communication, voice & video calls, payments, wallets, services, and communities together in one platform.',
         problem:
-            'Bringing significantly different digital services — social chat, finance, music, and a marketplace — into a single mobile app without fragmenting the user experience.',
+            'Users juggle separate apps for messaging, calls, payments, services, and communities — Vaihok needed to unify them all in one secure, consistent mobile experience.',
         built:
-            'A multi-module Flutter application with conversational and social features, finance functionality, music experiences, and marketplace workflows — responsive UI, API-driven data, real-time features, and smooth navigation between modules.',
+            'A multi-module Flutter super app with end-to-end encrypted 1:1 and group chats, voice and video calls, secure payments and wallet functionality, a services marketplace, media and file sharing, location sharing, communities, channels, and cross-device sync.',
         challenge:
-            'Maintaining a consistent, scalable application structure while supporting very different feature areas within the same Flutter codebase.',
-        tags: ['Flutter', 'Firebase', 'WebSockets', 'REST APIs'],
-        demo: 'https://play.google.com/store/apps/details?id=chat.bemindepower.bmpchat',
+            'Maintaining a scalable, consistent Flutter experience across significantly different feature areas — real-time communication, financial features, and service workflows — within the same application.',
+        tags: ['Flutter', 'WebSockets', 'Payments', 'REST APIs'],
+        demo: 'https://play.google.com/store/apps/details?id=app.vaihok.vaihoksuperapp.staging',
         demoLabel: 'on Google Play',
-        image: bemindepower,
+        image: vaihok,
     },
     {
         id: 7,
