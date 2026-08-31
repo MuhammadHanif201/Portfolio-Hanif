@@ -1,4 +1,4 @@
-import resume from '../assets/pdf/resume.pdf'
+import resume from '../assets/pdf/Muhammad Hanif.pdf'
 import profileImage from '../assets/png/hanif-portfolio.png'
 
 const description =
