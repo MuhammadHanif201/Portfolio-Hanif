@@ -4,7 +4,7 @@ export const educationData = [
         institution: 'Superior University, Lahore',
         course: 'Bachelor of Science in Computer Science',
         startYear: '2021',
-        endYear: '2024'
+        endYear: '2025'
     },
    
    
