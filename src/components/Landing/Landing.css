@@ -107,12 +107,18 @@
     margin: 2rem;
   }
 
+  .lcr--content {
+    width: 55%;
+    margin-right: 5rem;
+  }
+
   .lcr--content h6 {
     font-size: 1.1rem;
   }
 
   .lcr--content h1 {
-    font-size: 3rem;
+    font-size: 2.6rem;
+    line-height: 110%;
   }
 
   .lcr--content p {
@@ -140,9 +146,13 @@
     font-size: 30px;
   }
   .lcr--content {
-    width: 60%;
+    width: 65%;
     margin-top: 10%;
-    margin-right: 6%;
+    margin-right: 4%;
+  }
+
+  .lcr--content h1 {
+    font-size: 2.2rem;
   }
 
   .lcr-buttonContainer {

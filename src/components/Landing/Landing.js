@@ -17,15 +17,8 @@ import {
 
 function Landing() {
     const { theme, drawerOpen } = useContext(ThemeContext);
-    const screenWidth = window.innerWidth;
 
-    let description;
-
-    if (screenWidth <= 670) {
-      description = "Boosting Business with AI Web Solutions | Full-Stack Developer: Python, Django, DRF, FastAPI, Flask, React.js, Redux Toolkit, Docker, AWS | API Design | Crafting Dynamic, Scalable Apps | Leveraging Tech for Success | Digital Solutions Pioneer";
-    } else {
-      description = headerData.desciption
-    }
+    const description = headerData.description;
     const useStyles = makeStyles((t) => ({
         resumeBtn: {
             color: theme.primary,
