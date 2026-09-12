@@ -69,18 +69,18 @@
   font-style: normal;
 }
 
-.lcr--content h6 {
-  font-weight: 500;
-  font-size: 1.25rem;
-  margin-bottom: -0.85rem;
-  opacity: 0.8;
-}
-
 .lcr--content h1 {
   font-weight: 600;
   font-size: 3.25rem;
   line-height: 110%;
   margin: 1rem 0;
+}
+
+.lcr--content h6 {
+  font-weight: 500;
+  font-size: 1.25rem;
+  margin-bottom: -0.85rem;
+  opacity: 0.8;
 }
 
 .lcr--content p {
@@ -112,13 +112,13 @@
     margin-right: 5rem;
   }
 
-  .lcr--content h6 {
-    font-size: 1.1rem;
-  }
-
   .lcr--content h1 {
     font-size: 2.6rem;
     line-height: 110%;
+  }
+
+  .lcr--content h6 {
+    font-size: 1.1rem;
   }
 
   .lcr--content p {
@@ -153,6 +153,10 @@
 
   .lcr--content h1 {
     font-size: 2.2rem;
+  }
+
+  .lcr--content h6 {
+    font-size: 1.1rem;
   }
 
   .lcr-buttonContainer {
@@ -203,12 +207,12 @@
     margin-right: initial;
     width: 100%;
   }
-  .lcr--content h6 {
-    font-size: 1rem;
-    text-align: center;
-  }
   .lcr--content h1 {
     font-size: 2.5rem;
+    text-align: center;
+  }
+  .lcr--content h6 {
+    font-size: 1rem;
     text-align: center;
   }
   .lcr--content p {

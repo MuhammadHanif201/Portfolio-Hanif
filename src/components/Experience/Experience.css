@@ -27,6 +27,12 @@
     margin-bottom: 2rem;
 }
 
+.experience-description > h2 {
+    font-size: 3.5rem;
+    font-family: var(--primaryFont);
+    margin-bottom: 2rem;
+}
+
 .experience-card {
     display: flex;
     flex-direction: row;

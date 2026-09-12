@@ -35,6 +35,13 @@
     font-family: var(--primaryFont);
 }
 
+.projects--header h2 {
+    margin-bottom: 1rem;
+    font-size: 3.5rem;
+    line-height: 1;
+    font-family: var(--primaryFont);
+}
+
 .projects--header p {
     max-width: 620px;
     font-family: var(--primaryFont);

@@ -1,7 +1,7 @@
 export const socialsData = {
     github: 'https://github.com/MuhammadHanif201',
     // facebook: 'https://www.facebook.com/husnain.hashmi.982',
-    linkedIn: 'https://www.linkedin.com/in/muhammad-hanif',
+    linkedIn: 'https://www.linkedin.com/in/muhammad-hanif-723207300/',
     // instagram: 'https://www.instagram.com/husnainhashmi5/',
     // twitter: 'https://twitter.com/HusnainHashami5/',
     whatsapp:'https://wa.me/+923424351483',

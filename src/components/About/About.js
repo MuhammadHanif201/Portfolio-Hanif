@@ -24,7 +24,7 @@ function About() {
                 <div className="about-img">
                     <img 
                         src={aboutData.image === 1 ? theme.aboutimg1 : theme.aboutimg2}  
-                        alt="" 
+                        alt="Flutter mobile app development illustration" 
                     />
                 </div>
             </div>

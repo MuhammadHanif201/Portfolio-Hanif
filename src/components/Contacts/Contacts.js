@@ -599,7 +599,7 @@ function Contacts() {
     return (
         <div className='contacts' id='contacts' style={{ backgroundColor: theme.secondary }}>
             <div className='contacts--container'>
-                <h1 style={{ color: theme.primary }}>Contacts</h1>
+                <h2 style={{ color: theme.primary }}>Contacts</h2>
                 <div className='contacts-body'>
                     <div className='contacts-form'>
                         {calendlyUrl && (

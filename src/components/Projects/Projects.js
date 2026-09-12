@@ -50,7 +50,7 @@ function Projects() {
                 <div className="projects" id="projects" style={{backgroundColor: theme.secondary}}>
                     <div className="projects--header">
                         <span style={{color: theme.primary}}>Selected work</span>
-                        <h1 style={{color: theme.primary}}>Projects</h1>
+                        <h2 style={{color: theme.primary}}>Projects</h2>
                         <p style={{color: theme.tertiary80}}>
                             Flutter apps with real users — from Figma designs to Google Play and App Store releases.
                         </p>

@@ -145,7 +145,7 @@ function Landing() {
                 </div>
                 <img
                     src={headerData.image}
-                    alt=''
+                    alt='Muhammad Hanif Flutter Developer'
                     className='landing--img'
                     style={{
                         opacity: `${drawerOpen ? '0' : '1'}`,

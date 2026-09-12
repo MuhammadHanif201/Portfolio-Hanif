@@ -133,9 +133,9 @@ function Navbar() {
     return (
         <div className='navbar'>
             <div className='navbar--container'>
-                <h1 style={{ color: theme.secondary }}>
+                <p className='navbar--brand' style={{ color: theme.secondary }}>
                     {shortname(headerData.name)}
-                </h1>
+                </p>
 
                 <IoMenuSharp
                     className={classes.navMenu}
