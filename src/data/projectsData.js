@@ -13,7 +13,7 @@ import dost from '../assets/png/project-4dost.webp'
 export const projectsData = [
     {
         id: 1,
-        projectName: 'BeMindePower',
+        projectName: 'Be-MindePower',
         projectDesc:
             'Multi-module Flutter platform combining chat, finance, music, and marketplace experiences in one unified mobile app — 1K+ downloads and growing.',
         problem:
