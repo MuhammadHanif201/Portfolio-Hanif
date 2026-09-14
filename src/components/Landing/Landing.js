@@ -168,7 +168,7 @@ function Landing() {
                             {headerData.resumePdf && (
                                 <a
                                     href={headerData.resumePdf}
-                                    download='Muhammad Hanif'
+                                    download='Muhammad Hanif.pdf'
                                     target='_blank'
                                     rel='noreferrer'
                                 >
