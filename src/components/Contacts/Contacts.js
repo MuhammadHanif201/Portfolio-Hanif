@@ -555,9 +555,7 @@ function Contacts() {
     }));
 
     const classes = useStyles();
-    const calendlyUrl = contactsData.calendly
-        ? `${contactsData.calendly}?hide_event_type_details=1&hide_gdpr_banner=1`
-        : '';
+
 
     // const handleContactForm = (e) => {
     //     e.preventDefault();
