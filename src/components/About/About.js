@@ -19,7 +19,12 @@ function About() {
             <div className="about-body">
                 <div className="about-description">
                     <h2 style={{color: theme.primary}}>{aboutData.title}</h2>
-                    <p style={{color:theme.tertiary80}}>{aboutData.description1}<br/><br/>{aboutData.description2}</p>
+                    <p style={{color:theme.tertiary80}}>{aboutData.description1}</p>
+                    <ul style={{color:theme.tertiary80}}>
+                        {aboutData.bullets.map((point, i) => (
+                            <li key={i}>{point}</li>
+                        ))}
+                    </ul>
                 </div>
                 <div className="about-img">
                     <img 

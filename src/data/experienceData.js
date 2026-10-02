@@ -3,7 +3,7 @@ export const experienceData = [
         id: 1,
         company: 'TheCloudOps',
         location: 'UK · Remote',
-        jobtitle: 'Flutter Developer',
+        jobtitle: 'Senior Flutter Developer',
         startYear: 'Aug 2025',
         endYear: 'Present',
         bullets: [
@@ -29,7 +29,7 @@ export const experienceData = [
         id: 3,
         company: 'MindRind',
         location: 'Pakistan',
-        jobtitle: 'Flutter Developer',
+        jobtitle: 'Junior Flutter Developer',
         startYear: 'Nov 2024',
         endYear: 'Dec 2024',
         bullets: [
@@ -37,19 +37,17 @@ export const experienceData = [
             'Integrated REST APIs and Firebase services, fixed bugs, and improved app performance.',
         ],
     },
-    /*
     {
         id: 4,
         company: 'Self-Employed / Freelance',
         location: 'Remote',
         jobtitle: 'Flutter Developer',
-        startYear: 'Jul 2022',
-        endYear: 'Aug 2025',
+        startYear: 'Jul 2023',
+        endYear: 'Aug 2024',
         bullets: [
             'Delivered custom Flutter apps for startups and businesses across travel, eCommerce, healthcare, booking, and AI-powered domains.',
             'Selected projects include Jewels Airport Transfers, Nails, Accurate Edge, and AI Gallery Genie.',
             'Managed complete workflows — requirements, Figma-to-Flutter UI, backend integration, and store deployment.',
         ],
     },
-    */
 ]

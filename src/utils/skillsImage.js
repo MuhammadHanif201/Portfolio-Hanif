@@ -121,6 +121,10 @@ export const skillsImage = (skill) => {
             return chatbot;
         case 'android studio':
             return androidstudio;
+        case 'android':
+            return androidstudio;
+        case 'ios':
+            return appstore;
         case 'vs code':
             return vscode;
         case 'postman':

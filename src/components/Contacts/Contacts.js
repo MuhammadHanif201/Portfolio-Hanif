@@ -602,14 +602,14 @@ function Contacts() {
                 <h2 style={{ color: theme.primary }}>Contacts</h2>
                 <div className='contacts-body'>
                     <div className='contacts-form'>
-                        {calendlyUrl && (
+                        {/* calendlyUrl && (
                             <div
                                 ref={calendlyRef}
                                 className="calendly-inline-widget input-container"
                                 data-url={calendlyUrl}
                                 style={{ minWidth: '320px', height: '700px' }}
                             ></div>
-                        )}
+                        ) */}
 
                         <Snackbar
                             anchorOrigin={{
